@@ -77,3 +77,20 @@ Authors
 
 ``hyper`` is maintained by Cory Benfield, with contributions from others. For
 more details about the contributors, please see ``CONTRIBUTORS.rst``.
+
+改造
+======
+
+180610_hyper改造
+
+```
+
+# 防止request请求的时候headers被拆分开来
+
+eg:
+x-acf-sensor-data: 1
+x-acf-sensor-data: a
+x-acf-sensor-data: XVYsuJBm/jqRkeMs6aGP7faY967OX0P8mroywLS5Q0ekVJQ/cCe8/P7h8WK20Wz9KadWBmGBLmRAIrbYlbB1nn/Zf2/wasPSlEIm3H2xRy1hFHCFvIaKSfxfEoyDsBAbhUKb98/lyxX6nkQgzzxULEYnqbejuO2wE3gKF8Qcli8=
+
+```
+
